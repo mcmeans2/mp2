@@ -1,0 +1,17 @@
+.appContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.header {
+  border-bottom: 2px solid var(--accent-color);
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
