@@ -48,11 +48,15 @@ export default function GalleryView() {
             className={styles.card}
           >
             <img 
-              src={getImageUrl(art.image_id)} 
-              alt={art.title} 
-              className={styles.image} 
-              loading="lazy"
-            />
+                src={getImageUrl(art.image_id)} 
+                alt={art.title} 
+                className={styles.thumbnail} 
+                loading="lazy"
+                onError={(e) => {
+                // Fallback to the placeholder
+                 e.currentTarget.src = 'https://placehold.co/843x843/faf9f6/b50938?text=Rights+Restricted';
+                }}
+              />   
             <div className={styles.overlay}>
               <p className={styles.title}>{art.title}</p>
             </div>

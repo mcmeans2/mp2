@@ -17,7 +17,7 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<ListView />} />
-          <Route path="/" element={<GalleryView />} />
+          <Route path="/gallery" element={<GalleryView />} />
           <Route path="/artwork/:id" element={<div>Detail View Placeholder</div>} />
         </Routes>
       </main>

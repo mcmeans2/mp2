@@ -5,6 +5,7 @@ export interface Artwork {
   image_id: string | null;
   department_title: string | null;
   date_display: string;
+  is_public_domain: boolean; // Only return public domain artworks because of image copyrights 
 }
 
 export interface ArtworksResponse {
