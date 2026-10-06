@@ -32,13 +32,14 @@ export const useArtworks = () => {
   useEffect(() => {
     const fetchArtworks = async () => {
       try {
-        // Fetching 100 artworks 
+        // Fetching 12 artworks 
         const response = await axios.get<ArtworksResponse>(
-        'https://api.artic.edu/api/v1/artworks/search?q=impressionism&limit=50&fields=id,title,artist_display,image_id,department_title,date_display,is_public_domain'
+        'https://api.artic.edu/api/v1/artworks/search?query[term][is_public_domain]=true&limit=12&fields=id,title,artist_display,image_id,department_title,date_display'
         );
-        // Filter out artworks restricted by copyright
-        const publicArtworks = response.data.data.filter(art => art.is_public_domain && art.image_id !== null);
-        setArtworks(publicArtworks);
+        const digitizedArtworks = response.data.data.filter(art => art.image_id !== null);
+
+        console.log("Digitized Artworks:", digitizedArtworks);
+        setArtworks(digitizedArtworks);
 
         setError(null);
       } catch (err) {
