@@ -1,0 +1,110 @@
+[
+    {
+        "_score": 488929.75,
+        "id": 27992,
+        "title": "A Sunday on La Grande Jatte — 1884",
+        "date_display": "1884–86, border added 1888–89",
+        "artist_display": "Georges Seurat (French, 1859–1891)",
+        "department_title": "Painting and Sculpture of Europe",
+        "image_id": "2d484387-2509-5e8e-2c43-22f9981972eb"
+    },
+    {
+        "_score": 2281672.2,
+        "id": 21023,
+        "title": "Buddha Shakyamuni Seated in Meditation (Dhyanamudra)",
+        "date_display": "Chola period, about 12th century",
+        "artist_display": "India\nNagapattinam, Tamil Nadu",
+        "department_title": "Arts of Asia",
+        "image_id": "0675f9a9-1a7b-c90a-3bb6-7f7be2afb678"
+    },
+    {
+        "_score": 228167.22,
+        "id": 75644,
+        "title": "Coronation Stone of Moctezuma Xocoyotzin",
+        "date_display": "c. 1503",
+        "artist_display": "Maker unknown (Mexica, Aztec)\nProbably Tenochtitlan (now Mexico City), Mexico",
+        "department_title": "Arts of the Americas",
+        "image_id": "ea8c5d62-6ce8-88e8-feb1-e0053cf534c5"
+    },
+    {
+        "_score": 570418.06,
+        "id": 20684,
+        "title": "Paris Street; Rainy Day",
+        "date_display": "1877",
+        "artist_display": "Gustave Caillebotte (French, 1848–1894)",
+        "department_title": "Painting and Sculpture of Europe",
+        "image_id": "f8fd76e9-c396-5678-36ed-6a348c904d27"
+    },
+    {
+        "_score": 17489.125,
+        "id": 80607,
+        "title": "Self-Portrait",
+        "date_display": "1887",
+        "artist_display": "Vincent van Gogh (Dutch, 1853–1890)",
+        "department_title": "Painting and Sculpture of Europe",
+        "image_id": "47c5bcb8-62ef-e5d7-55e7-f5121f409a30"
+    },
+    {
+        "_score": 54325.527,
+        "id": 64818,
+        "title": "Stacks of Wheat (End of Summer)",
+        "date_display": "1890–91",
+        "artist_display": "Claude Monet (French, 1840–1926)",
+        "department_title": "Painting and Sculpture of Europe",
+        "image_id": "a38e2828-ec6f-ece1-a30f-70243449197b"
+    },
+    {
+        "_score": 68450.164,
+        "id": 87479,
+        "title": "The Assumption of the Virgin",
+        "date_display": "1577–79",
+        "artist_display": "El Greco (Doménikos Theotokópoulos; Greek, active in Spain, 1541–1614)",
+        "department_title": "Painting and Sculpture of Europe",
+        "image_id": "47fd1564-93f5-f30b-7786-013421133b4a"
+    },
+    {
+        "_score": 3422508.2,
+        "id": 28560,
+        "title": "The Bedroom",
+        "date_display": "1889",
+        "artist_display": "Vincent van Gogh (Dutch, 1853–1890)",
+        "department_title": "Painting and Sculpture of Europe",
+        "image_id": "6644829f-f292-c5c4-a73c-0356a6fdbf0d"
+    },
+    {
+        "_score": 17658.975,
+        "id": 14655,
+        "title": "Two Sisters (On the Terrace)",
+        "date_display": "1881",
+        "artist_display": "Pierre-Auguste Renoir (French, 1841–1919)",
+        "department_title": "Painting and Sculpture of Europe",
+        "image_id": "3a608f55-d76e-fa96-d0b1-0789fbc48f1e"
+    },
+    {
+        "_score": 72052.805,
+        "id": 89503,
+        "title": "Under the Wave off Kanagawa (Kanagawa oki nami ura), also known as The Great Wave, from the series \"Thirty-Six Views of Mount Fuji (Fugaku sanjurokkei)\"",
+        "date_display": "1830/33",
+        "artist_display": "Katsushika Hokusai 葛飾 北斎\nJapanese, 1760-1849",
+        "department_title": "Arts of Asia",
+        "image_id": "2fa24f36-cc26-41b6-4b49-12bba2a6c1c8"
+    },
+    {
+        "_score": 122232.44,
+        "id": 102611,
+        "title": "Veranda Post (Òpó Ògògá)",
+        "date_display": "1910-14",
+        "artist_display": "Olowe of Ise (died 1938)\nYòrùbá: Èkìtì; Ikere, Nigeria\nCoastal West Africa",
+        "department_title": "Arts of Africa",
+        "image_id": "fec5d023-0b46-45df-eb57-cbf64e24121d"
+    },
+    {
+        "_score": 18091.701,
+        "id": 16568,
+        "title": "Water Lilies",
+        "date_display": "1906",
+        "artist_display": "Claude Monet (French, 1840–1926)",
+        "department_title": "Painting and Sculpture of Europe",
+        "image_id": "3c27b499-af56-f0d5-93b5-a7f2f1ad5813"
+    }
+]

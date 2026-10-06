@@ -54,7 +54,7 @@ export default function GalleryView() {
                 loading="lazy"
                 onError={(e) => {
                 // Fallback to the placeholder
-                 e.currentTarget.src = 'https://placehold.co/843x843/faf9f6/b50938?text=Rights+Restricted';
+                 e.currentTarget.src = 'https://placehold.co/843x843/faf9f6/b50938?text=Image+Unavailable';
                 }}
               />   
             <div className={styles.overlay}>
