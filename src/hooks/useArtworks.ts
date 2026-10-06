@@ -34,10 +34,10 @@ export const useArtworks = () => {
       try {
         // Fetching 100 artworks 
         const response = await axios.get<ArtworksResponse>(
-        'https://api.artic.edu/api/v1/artworks?limit=100&fields=id,title,artist_display,image_id,department_title,date_display,is_public_domain'
+        'https://api.artic.edu/api/v1/artworks/search?q=impressionism&limit=50&fields=id,title,artist_display,image_id,department_title,date_display,is_public_domain'
         );
         // Filter out artworks restricted by copyright
-        const publicArtworks = response.data.data.filter(art => art.is_public_domain);
+        const publicArtworks = response.data.data.filter(art => art.is_public_domain && art.image_id !== null);
         setArtworks(publicArtworks);
 
         setError(null);

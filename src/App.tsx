@@ -2,6 +2,7 @@ import { Routes, Route, Link } from 'react-router-dom';
 import ListView from './components/ListView/ListView'
 import GalleryView from './components/GalleryView/GalleryView';
 import styles from './App.module.css';
+import DetailView from './components/DetailView/DetailView';
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<ListView />} />
           <Route path="/gallery" element={<GalleryView />} />
-          <Route path="/artwork/:id" element={<div>Detail View Placeholder</div>} />
+          <Route path="/artwork/:id" element={<DetailView />} />     
         </Routes>
       </main>
     </div>
